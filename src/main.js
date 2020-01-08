@@ -6,6 +6,7 @@ import store from './store'
 import './utils/register-vant'
 // 加载全局样式
 import './styles/index.less'
+import 'normalize.css'
 
 Vue.config.productionTip = false
 
