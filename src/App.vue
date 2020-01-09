@@ -2,6 +2,7 @@
   <div id="app">
     <!-- 路由出口 -->
     <router-view />
+    <div class="title">hello world</div>
   </div>
 </template>
 
@@ -12,4 +13,10 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped lang="less">
+.title {
+  width: 100px;
+  height: 50px;
+  background: red;
+}
+</style>
